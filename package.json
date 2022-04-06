@@ -1,0 +1,12 @@
+{
+  "name": "bnomei.github.io",
+  "scripts": {
+    "serve": "php -S localhost:8000",
+    "sync": "browser-sync start --proxy 'localhost:8000' --files '*.html'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bnomei/bnomei.github.io.git"
+  },
+  "license": "MIT"
+}
