@@ -32,7 +32,7 @@
       <ul class="col-span-1"
         x-data="{ items: [] }"
         x-init="
-        fetch('https://packagist.org/search.json?q=bnomei&tags=kirby3&per_page=100&fields[]=abandoned')
+        fetch('https://packagist.org/search.json?q=bnomei&tags[]=kirby&tags[]=kirby3&per_page=100&fields[]=abandoned')
           .then(response => {
             if (response.status === 200) {
               response.json()
