@@ -1,85 +1,144 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bruno Meilick - Bnomei</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bruno Meilick - bnomei</title>
+
   <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
   <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
 </head>
+
 <body>
   <main class="container mx-auto px-4 py-8 lg:py-12 max-w-prose">
     <figure class="flex pb-4 lg:pb-6">
-      <a href="mailto:hello@bnomei.com" class="block"><img class="border rounded-full h-32 w-auto" src="https://avatars.githubusercontent.com/u/3265642?v=4"></a>
+      <a href="mailto:hello@bnomei.com" class="block">
+        <img
+          class="border rounded-full h-32 w-auto"
+          src="https://avatars.githubusercontent.com/u/3265642?v=4"
+          alt="Bruno Meilick avatar"
+        />
+      </a>
       <figcaption class="pl-4 flex flex-col justify-center">
         <h1 class="text-2xl lg:text-4xl">Bruno Meilick</h1>
         <small class="text-lg lg:text-2xl text-gray-400 pl-px">bnomei</small>
       </figcaption>
     </figure>
-    <div class="prose pb-12">
-      <p>My name is Bruno Meilick. I live in central Ireland with my wife and four kids.</p>
+
+    <div class="prose pb-10">
+      <h2>Systems Builder</h2>
+      <p>
+        Systems builder focused on Rust, Model Context Protocol (MCP), and agent-native AI architectures.
+        Designing spec-driven services, AI workflows, and developer tooling that enable reliable multi-step autonomous agents and high-quality production systems.
+      </p>
+
+      <hr />
+
+      <h3>Focus</h3>
       <ul>
-        <li>Graduated in Interaction Design from Zurich University of the Arts.</li>
-        <li>I work as a freelance full-stack web developer.</li>
-        <li>PHP: <a href="https://getkirby.com">Kirby CMS</a> and <a href="https://laravel.com">Laravel</a></li>
-        <li>Typescript: <a href="https://nextjs.org">NextJs</a>, <a href="https://ai-sdk.dev">AI SDK</a>, <a href="https://vercel.com">Vercel</a>, <a href="https://docs.amplify.aws/nextjs/">Amplify Gen2</a></li>
-        <li>Rust: <a href="https://www.leptos.dev">Leptos</a> and <a href="https://www.shuttle.dev">Shuttle</a></li>
-        <li>Since 2015, I have created open-source, high-quality Kirby CMS <a href="https://plugins.getkirby.com//bnomei">plugins</a>.</li>
-        <li>You can <a href="mailto:hello@bnomei.com">hire me</a> to build your website or <a href="https://audit.bnomei.com">get an audit and improve the performance</a> of your Kirby CMS project.</li>
-        <li>My paid extension to Kirby CMS called <a href="https://kart.bnomei.com">Kart</a> provides a streamlined E-Commerce solution for Gumroad, LemonSqueeze, Mollie, Paddle, PayPal, Snipcart and Stripe.</li>
-        <li>My paid extension to Kirby CMS called <a href="https://klub.bnomei.com">Klub</a> supports paywalls, memberships, and subscriptions via Stripe.</li>
-        <li>German/English</li>
+        <li>Rust backend, tooling, and CLI ecosystems</li>
+        <li>MCP servers and agent orchestration infrastructure</li>
+        <li>Context engineering for reliable AI workflows</li>
+        <li>Spec-driven API and tool schema design</li>
+        <li>AI-assisted Git workflows, pre-commit automation, and CI/CD integration</li>
+        <li>AI-assisted quality pipelines and code review automation</li>
+        <li>Web system performance, analytics, and optimisation</li>
       </ul>
-      <p>Expertise</p>
-        <ul>
-          <li>MCP Servers</li>
-          <li>Agentic tooling & prompt engineering</li>
-          <li>Performance and SEO optimizations with <a href="https://www.webpagetest.org/" target="_blank">Webpagetest</a> and <a href="https://www.seobility.net/en/?ref=audit.bnomei.com" target="_blank">Seobility</a></li>
-          <li>Querying / Filtering thousands of pages in Kirby performantly</li>
-          <li><a href="https://github.com/bnomei/kirby3-redirects" target="_blank">Thousands of redirects</a>, even with regex clauses</li>
-          <li><a href="https://github.com/bnomei/kirby3-janitor" target="_blank">Running tasks</a> from within the Panel</li>
-          <li>Unit- and Browser-testing</li>
-          <li>LLM and Web Analytics, A/B testing, feature flags and surveys with <a href="https://posthog.com" target="_blank">Posthog</a></li>
-          <li>Webshop/payment and subscriptions with <a href="https://stripe.com/" target="_blank">Stripe</a>, <a href="https://www.paypal.com" target="_blank">Paypal</a> and similar services</li>
-          <li>Newsletter and transactional email with <a href="https://postmarkapp.com/" target="_blank">Postmark</a>, <a href="https://www.mailjet.com/" target="_blank">Mailjet</a>, <a href="https://www.brevo.com" target="_blank">Brevo</a>, ...</li>
-          <li>Responsive, custom-styled emails with <a href="https://mjml.io/" target="_blank">MJML</a> and validated by <a href="https://www.litmus.com/" target="_blank">Litmus</a></li>
-          <li>Campaign management with <a href="https://mailcoach.app/" target="_blank">Mailcoach</a>, <a href="https://sendy.co/" target="_blank">Sendy</a>, ...</li>
-          <li>Visually tracking changes in Frontend development via <a href="https://github.com/bnomei/kirby3-storybook" target="_blank">Storybook.js but with PHP</a></li>
-          <li>Import/export and migration of data from various data sources</li>
-          <li>Run automated tests and apply coding standards via Continuous Integration (CI)</li>
-          <li>Connect your source code via Continous Deployments (CD) to your hosting provider</li>
-          <li>Backups</li>
-        </ul>
-    </div>
-    <section class="pb-8 grid grid-cols-1 lg:grid-cols-2 gap-4">
-      <div class="col-span-1 flex flex-col space-y-4">
-        
+
+      <h3>Technologies</h3>
+
+      <h4>Core Systems &amp; Languages</h4>
+      <ul>
+        <li>Rust (Axum, Leptos, CLI tooling)</li>
+        <li>WASM tooling and modular runtime design</li>
+        <li>PHP (Kirby CMS, Laravel)</li>
+        <li>TypeScript (Next.js)</li>
+        <li>Tailwind CSS</li>
+      </ul>
+
+      <h4>Agent &amp; AI Engineering</h4>
+      <ul>
+        <li>Context optimisation and multi-agent workflow orchestration</li>
+        <li>Structured agent skill design and tool schema interfaces</li>
+        <li>Integration of autonomous coding agents into development workflows</li>
+        <li>Automated review and test feedback loops</li>
+        <li>Spec-first development pipelines (JSON Schema, structured outputs)</li>
+      </ul>
+
+      <h4>Infrastructure &amp; Deployment</h4>
+      <ul>
+        <li>Cloudflare</li>
+        <li>Ploi, Railway, Fly.io, Shuttle, AWS Amplify Gen2</li>
+        <li>PostgreSQL, MongoDB, Redis/Valkey, RedisStack</li>
+        <li>Stripe/Polar/Mollie/Lemonsqueezy and other subscription/payment systems</li>
+      </ul>
+
+      <hr />
+
+      <h3>Track Record</h3>
+      <ul>
+        <li>15+ years building production systems and frameworks</li>
+        <li>Open-source maintainer and plugin creator in major ecosystems</li>
+        <li>Creator of commercial extensions for e-commerce, subscriptions, and memberships</li>
+        <li>Experience with payments, analytics, SaaS architecture, performance optimisation</li>
+        <li>German / English</li>
+      </ul>
+
+      <h3>Availability</h3>
+      <p>
+        Freelance today.<br />
+        Exploring remote opportunities in Rust, AI-native backend, and AI workflow engineering roles from Summer 2026.
+      </p>
+
+      <div class="not-prose">
+        <br />
+        <a href="https://getkirby.com/partners/bruno-meilick" title="Visit my partner profile">
+          <img
+            height="60"
+            src="https://raw.githubusercontent.com/bnomei/bnomei/main/kirby-certified-partner-light.svg"
+            alt="Kirby Certified Partner"
+          />
+        </a>
+        <br /><br />
       </div>
-      <ul class="col-span-1"
-        x-data="{ items: [] }"
-        x-init="
-        fetch('https://packagist.org/search.json?q=bnomei&tags[]=kirby&tags[]=kirby3&per_page=100&fields[]=abandoned')
-          .then(response => {
-            if (response.status === 200) {
-              response.json()
-                .then(json => {
-                  items = json.results.filter((item) => !item.abandoned);
-                })
-            }
-          });
-        ">
-        <template :key="item.name"
-          x-for="item in items.sort((a, b) => {
-                  return a.downloads < b.downloads ? 1 : -1;
-                })">
-          <li>
-            <a class="group" x-bind:href="item.repository">
-              <span class="pr-1 group-hover:underline"
-              x-html="item.name.replace('bnomei/','')"></span>&nbsp;<small class="text-gray-400" x-html="item.downloads"></small>
-            </a>
-          </li>
-        </template>
-      </ul>
+    </div>
+
+    <!-- Optional: keep your Packagist list section (unchanged), now under an explicit heading -->
+    <section class="pb-8">
+      <h2 class="text-xl font-semibold pb-3">Open-source (Packagist)</h2>
+
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+        <div class="col-span-1 flex flex-col space-y-4">
+          <!-- left column intentionally empty (keep if you want future content) -->
+        </div>
+
+        <ul class="col-span-1"
+          x-data="{ items: [] }"
+          x-init="
+            fetch('https://packagist.org/search.json?q=bnomei&per_page=100&fields[]=abandoned')
+              .then(response => {
+                if (response.status === 200) {
+                  response.json()
+                    .then(json => {
+                      items = json.results.filter((item) => !item.abandoned);
+                    })
+                }
+              });
+          "
+        >
+          <template
+            :key="item.name"
+            x-for="item in items.sort((a, b) => (a.downloads < b.downloads ? 1 : -1))"
+          >
+            <li>
+              <a class="group" x-bind:href="item.repository">
+                <span class="pr-1 group-hover:underline" x-html="item.name.replace('bnomei/','')"></span>
+                <small class="text-gray-400" x-html="item.downloads"></small>
+              </a>
+            </li>
+          </template>
+        </ul>
+      </div>
     </section>
   </main>
 </body>
