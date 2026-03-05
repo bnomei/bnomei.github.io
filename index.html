@@ -161,7 +161,7 @@
           <template x-for="c in [...crates].sort((a,b) => b.downloads - a.downloads)" :key="c.name">
             <li class="py-0.5">
               <a class="group" :href="c.url" target="_blank" rel="noopener noreferrer">
-                <span class="pr-1 group-hover:underline text-blue-600" x-text="c.name"></span>
+                <span class="pr-1 group-hover:underline" x-text="c.name"></span>
                 <small class="text-gray-400" x-text="c.downloads"></small>
               </a>
             </li>
